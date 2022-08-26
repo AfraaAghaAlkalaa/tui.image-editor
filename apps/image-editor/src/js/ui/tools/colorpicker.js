@@ -11,14 +11,6 @@ const PICKER_COLOR = [
   '#d2d2d2',
   '#ffffff',
   '',
-  '#ff4040',
-  '#ff6518',
-  '#ffbb3b',
-  '#03bd9e',
-  '#00a9ff',
-  '#515ce6',
-  '#9e5fff',
-  '#ff5583',
 ];
 
 /**
@@ -29,7 +21,7 @@ const PICKER_COLOR = [
 class Colorpicker {
   constructor(
     colorpickerElement,
-    { defaultColor = '#7e7e7e', toggleDirection = 'up', usageStatistics }
+    { defaultColor = '#2a2a2a', toggleDirection = 'up', usageStatistics }
   ) {
     this.colorpickerElement = colorpickerElement;
     this.usageStatistics = usageStatistics;
